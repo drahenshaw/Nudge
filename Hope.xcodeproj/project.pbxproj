@@ -15,6 +15,7 @@
 		FDE230FF226237C8006DAD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE230FE226237C8006DAD93 /* Assets.xcassets */; };
 		FDE23102226237C8006DAD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE23100226237C8006DAD93 /* LaunchScreen.storyboard */; };
 		FDE2310A226238C2006DAD93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDE23109226238C2006DAD93 /* GoogleService-Info.plist */; };
+		FDE2310D22623D1B006DAD93 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2310C22623D1B006DAD93 /* AuthVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FDE23101226237C8006DAD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDE23103226237C8006DAD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDE23109226238C2006DAD93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FDE2310C22623D1B006DAD93 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		FDE230F4226237C7006DAD93 /* Hope */ = {
 			isa = PBXGroup;
 			children = (
+				FDE2310B22623CFD006DAD93 /* Controller */,
 				FDE230F5226237C7006DAD93 /* AppDelegate.swift */,
 				FDE230F7226237C7006DAD93 /* FirstViewController.swift */,
 				FDE230F9226237C7006DAD93 /* SecondViewController.swift */,
@@ -92,6 +95,15 @@
 				FDE23109226238C2006DAD93 /* GoogleService-Info.plist */,
 			);
 			path = Hope;
+			sourceTree = "<group>";
+		};
+		FDE2310B22623CFD006DAD93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDE2310C22623D1B006DAD93 /* AuthVC.swift */,
+			);
+			name = Controller;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,11 +201,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Hope/Pods-Hope-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -212,6 +226,7 @@
 				FDE230FA226237C7006DAD93 /* SecondViewController.swift in Sources */,
 				FDE230F6226237C7006DAD93 /* AppDelegate.swift in Sources */,
 				FDE230F8226237C7006DAD93 /* FirstViewController.swift in Sources */,
+				FDE2310D22623D1B006DAD93 /* AuthVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
