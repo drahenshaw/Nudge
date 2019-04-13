@@ -23,7 +23,7 @@ class AuthService
             }
             
             let userData = ["provider": user.user.providerID, "email": user.user.email]
-            //Data Service here
+            DataService.instance.CreateDBUser(uid: user.user.uid, userData: userData)
             userCreationComplete(true, nil)
         })
     }
@@ -38,6 +38,4 @@ class AuthService
             loginComplete(true, nil)
         }
     }
-
 }
-

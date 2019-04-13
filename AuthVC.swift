@@ -1,5 +1,5 @@
 //
-//  AuthVCViewController.swift
+//  AuthVC.swift
 //  Hope
 //
 //  Created by David Henshaw on 4/13/19.
@@ -27,7 +27,11 @@ class AuthVC: UIViewController {
         }
     }
     
-
+    @IBAction func SignInEmailPressed(_ sender: Any) {
+        let loginVC = storyboard?.instantiateViewController(withIdentifier: "LoginVC")
+        present(loginVC!, animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
