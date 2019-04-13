@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B776BCB63D1CA3ACA24BCA71 /* Pods_Hope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8777B189C2C96192B9943561 /* Pods_Hope.framework */; };
 		FDE230F6226237C7006DAD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE230F5226237C7006DAD93 /* AppDelegate.swift */; };
 		FDE230F8226237C7006DAD93 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE230F7226237C7006DAD93 /* FirstViewController.swift */; };
 		FDE230FA226237C7006DAD93 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE230F9226237C7006DAD93 /* SecondViewController.swift */; };
@@ -17,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6310C9592A89A08AE6539D04 /* Pods-Hope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hope.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hope/Pods-Hope.debug.xcconfig"; sourceTree = "<group>"; };
+		8777B189C2C96192B9943561 /* Pods_Hope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AB4593FB3F2112FBAF8571 /* Pods-Hope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hope.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hope/Pods-Hope.release.xcconfig"; sourceTree = "<group>"; };
 		FDE230F2226237C7006DAD93 /* Hope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE230F5226237C7006DAD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDE230F7226237C7006DAD93 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B776BCB63D1CA3ACA24BCA71 /* Pods_Hope.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07E0587C96A7589636529308 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8777B189C2C96192B9943561 /* Pods_Hope.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F7AC71EA4986D2CB09D7044 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6310C9592A89A08AE6539D04 /* Pods-Hope.debug.xcconfig */,
+				A3AB4593FB3F2112FBAF8571 /* Pods-Hope.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FDE230E9226237C7006DAD93 = {
 			isa = PBXGroup;
 			children = (
 				FDE230F4226237C7006DAD93 /* Hope */,
 				FDE230F3226237C7006DAD93 /* Products */,
+				2F7AC71EA4986D2CB09D7044 /* Pods */,
+				07E0587C96A7589636529308 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDE23106226237C8006DAD93 /* Build configuration list for PBXNativeTarget "Hope" */;
 			buildPhases = (
+				7D71EC24784AE49C0FC14DA5 /* [CP] Check Pods Manifest.lock */,
 				FDE230EE226237C7006DAD93 /* Sources */,
 				FDE230EF226237C7006DAD93 /* Frameworks */,
 				FDE230F0226237C7006DAD93 /* Resources */,
+				B3278980EDEFCF1E9BBF7150 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +162,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D71EC24784AE49C0FC14DA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hope-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3278980EDEFCF1E9BBF7150 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hope/Pods-Hope-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hope/Pods-Hope-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FDE230EE226237C7006DAD93 /* Sources */ = {
@@ -288,6 +355,7 @@
 		};
 		FDE23107226237C8006DAD93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6310C9592A89A08AE6539D04 /* Pods-Hope.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,6 +374,7 @@
 		};
 		FDE23108226237C8006DAD93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3AB4593FB3F2112FBAF8571 /* Pods-Hope.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
