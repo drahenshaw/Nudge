@@ -16,6 +16,8 @@
 		FDE23102226237C8006DAD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE23100226237C8006DAD93 /* LaunchScreen.storyboard */; };
 		FDE2310A226238C2006DAD93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDE23109226238C2006DAD93 /* GoogleService-Info.plist */; };
 		FDE2310D22623D1B006DAD93 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2310C22623D1B006DAD93 /* AuthVC.swift */; };
+		FDE2311022623EFA006DAD93 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2310F22623EFA006DAD93 /* AuthService.swift */; };
+		FDE23112226241A6006DAD93 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE23111226241A6006DAD93 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		FDE23103226237C8006DAD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDE23109226238C2006DAD93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FDE2310C22623D1B006DAD93 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		FDE2310F22623EFA006DAD93 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		FDE23111226241A6006DAD93 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		FDE230F4226237C7006DAD93 /* Hope */ = {
 			isa = PBXGroup;
 			children = (
+				FDE2310E22623ECE006DAD93 /* Services */,
 				FDE2310B22623CFD006DAD93 /* Controller */,
 				FDE230F5226237C7006DAD93 /* AppDelegate.swift */,
 				FDE230F7226237C7006DAD93 /* FirstViewController.swift */,
@@ -103,6 +108,16 @@
 				FDE2310C22623D1B006DAD93 /* AuthVC.swift */,
 			);
 			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FDE2310E22623ECE006DAD93 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FDE2310F22623EFA006DAD93 /* AuthService.swift */,
+				FDE23111226241A6006DAD93 /* DataService.swift */,
+			);
+			name = Services;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -225,6 +240,8 @@
 			files = (
 				FDE230FA226237C7006DAD93 /* SecondViewController.swift in Sources */,
 				FDE230F6226237C7006DAD93 /* AppDelegate.swift in Sources */,
+				FDE2311022623EFA006DAD93 /* AuthService.swift in Sources */,
+				FDE23112226241A6006DAD93 /* DataService.swift in Sources */,
 				FDE230F8226237C7006DAD93 /* FirstViewController.swift in Sources */,
 				FDE2310D22623D1B006DAD93 /* AuthVC.swift in Sources */,
 			);

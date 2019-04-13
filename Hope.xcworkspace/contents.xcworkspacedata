@@ -3,7 +3,7 @@
    version = "1.0">
    <Group
       location = "container:"
-      name = "Controller">
+      name = "Services">
    </Group>
    <FileRef
       location = "group:Hope.xcodeproj">
