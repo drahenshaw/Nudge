@@ -19,6 +19,8 @@
 		FDE2311022623EFA006DAD93 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2310F22623EFA006DAD93 /* AuthService.swift */; };
 		FDE23112226241A6006DAD93 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE23111226241A6006DAD93 /* DataService.swift */; };
 		FDE2311422625A47006DAD93 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2311322625A47006DAD93 /* LoginVC.swift */; };
+		FDE231162262686A006DAD93 /* PathwayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231152262686A006DAD93 /* PathwayVC.swift */; };
+		FDE231192262736D006DAD93 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231182262736D006DAD93 /* CheckBoxButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		FDE2310F22623EFA006DAD93 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FDE23111226241A6006DAD93 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		FDE2311322625A47006DAD93 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FDE231152262686A006DAD93 /* PathwayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathwayVC.swift; sourceTree = "<group>"; };
+		FDE231182262736D006DAD93 /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		FDE230F4226237C7006DAD93 /* Hope */ = {
 			isa = PBXGroup;
 			children = (
+				FDE2311722627323006DAD93 /* View */,
 				FDE2310E22623ECE006DAD93 /* Services */,
 				FDE2310B22623CFD006DAD93 /* Controller */,
 				FDE230F5226237C7006DAD93 /* AppDelegate.swift */,
@@ -109,6 +114,7 @@
 			children = (
 				FDE2310C22623D1B006DAD93 /* AuthVC.swift */,
 				FDE2311322625A47006DAD93 /* LoginVC.swift */,
+				FDE231152262686A006DAD93 /* PathwayVC.swift */,
 			);
 			name = Controller;
 			path = ..;
@@ -121,6 +127,15 @@
 				FDE23111226241A6006DAD93 /* DataService.swift */,
 			);
 			name = Services;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FDE2311722627323006DAD93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDE231182262736D006DAD93 /* CheckBoxButton.swift */,
+			);
+			name = View;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -244,8 +259,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE230FA226237C7006DAD93 /* SecondViewController.swift in Sources */,
+				FDE231162262686A006DAD93 /* PathwayVC.swift in Sources */,
 				FDE230F6226237C7006DAD93 /* AppDelegate.swift in Sources */,
 				FDE2311422625A47006DAD93 /* LoginVC.swift in Sources */,
+				FDE231192262736D006DAD93 /* CheckBoxButton.swift in Sources */,
 				FDE2311022623EFA006DAD93 /* AuthService.swift in Sources */,
 				FDE23112226241A6006DAD93 /* DataService.swift in Sources */,
 				FDE230F8226237C7006DAD93 /* FirstViewController.swift in Sources */,
