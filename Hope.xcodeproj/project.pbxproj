@@ -18,6 +18,7 @@
 		FDE2310D22623D1B006DAD93 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2310C22623D1B006DAD93 /* AuthVC.swift */; };
 		FDE2311022623EFA006DAD93 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2310F22623EFA006DAD93 /* AuthService.swift */; };
 		FDE23112226241A6006DAD93 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE23111226241A6006DAD93 /* DataService.swift */; };
+		FDE2311422625A47006DAD93 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2311322625A47006DAD93 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FDE2310C22623D1B006DAD93 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		FDE2310F22623EFA006DAD93 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FDE23111226241A6006DAD93 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FDE2311322625A47006DAD93 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				FDE2310C22623D1B006DAD93 /* AuthVC.swift */,
+				FDE2311322625A47006DAD93 /* LoginVC.swift */,
 			);
 			name = Controller;
 			path = ..;
@@ -242,6 +245,7 @@
 			files = (
 				FDE230FA226237C7006DAD93 /* SecondViewController.swift in Sources */,
 				FDE230F6226237C7006DAD93 /* AppDelegate.swift in Sources */,
+				FDE2311422625A47006DAD93 /* LoginVC.swift in Sources */,
 				FDE2311022623EFA006DAD93 /* AuthService.swift in Sources */,
 				FDE23112226241A6006DAD93 /* DataService.swift in Sources */,
 				FDE230F8226237C7006DAD93 /* FirstViewController.swift in Sources */,
