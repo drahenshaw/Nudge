@@ -23,6 +23,7 @@
 		FDE231192262736D006DAD93 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231182262736D006DAD93 /* CheckBoxButton.swift */; };
 		FDE2311B22627852006DAD93 /* PathwayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2311A22627852006DAD93 /* PathwayCell.swift */; };
 		FDE2311D22629DF0006DAD93 /* FrequencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2311C22629DF0006DAD93 /* FrequencyVC.swift */; };
+		FDE2311F2262A68F006DAD93 /* ProfileCompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2311E2262A68F006DAD93 /* ProfileCompleteVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		FDE231182262736D006DAD93 /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
 		FDE2311A22627852006DAD93 /* PathwayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathwayCell.swift; sourceTree = "<group>"; };
 		FDE2311C22629DF0006DAD93 /* FrequencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyVC.swift; sourceTree = "<group>"; };
+		FDE2311E2262A68F006DAD93 /* ProfileCompleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCompleteVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				FDE2311322625A47006DAD93 /* LoginVC.swift */,
 				FDE231152262686A006DAD93 /* PathwayVC.swift */,
 				FDE2311C22629DF0006DAD93 /* FrequencyVC.swift */,
+				FDE2311E2262A68F006DAD93 /* ProfileCompleteVC.swift */,
 			);
 			name = Controller;
 			path = ..;
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE2311B22627852006DAD93 /* PathwayCell.swift in Sources */,
+				FDE2311F2262A68F006DAD93 /* ProfileCompleteVC.swift in Sources */,
 				FDE230FA226237C7006DAD93 /* SecondViewController.swift in Sources */,
 				FDE231162262686A006DAD93 /* PathwayVC.swift in Sources */,
 				FDE230F6226237C7006DAD93 /* AppDelegate.swift in Sources */,

@@ -26,6 +26,7 @@ class FrequencyVC: UIViewController {
         // WRITE Frequency to User Settings
         
         // Perform Segue to Rewards Screen
+        performSegue(withIdentifier: "ProfileComplete", sender: self)
     }
     
 }
