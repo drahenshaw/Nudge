@@ -24,6 +24,9 @@
 		FDE2311B22627852006DAD93 /* PathwayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2311A22627852006DAD93 /* PathwayCell.swift */; };
 		FDE2311D22629DF0006DAD93 /* FrequencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2311C22629DF0006DAD93 /* FrequencyVC.swift */; };
 		FDE2311F2262A68F006DAD93 /* ProfileCompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2311E2262A68F006DAD93 /* ProfileCompleteVC.swift */; };
+		FDE231212262A8BA006DAD93 /* NudgeScenarioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231202262A8BA006DAD93 /* NudgeScenarioVC.swift */; };
+		FDE231232262AD30006DAD93 /* NudgeWrapUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231222262AD30006DAD93 /* NudgeWrapUpVC.swift */; };
+		FDE231252262AF5F006DAD93 /* NudgeCompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231242262AF5F006DAD93 /* NudgeCompleteVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		FDE2311A22627852006DAD93 /* PathwayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathwayCell.swift; sourceTree = "<group>"; };
 		FDE2311C22629DF0006DAD93 /* FrequencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyVC.swift; sourceTree = "<group>"; };
 		FDE2311E2262A68F006DAD93 /* ProfileCompleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCompleteVC.swift; sourceTree = "<group>"; };
+		FDE231202262A8BA006DAD93 /* NudgeScenarioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeScenarioVC.swift; sourceTree = "<group>"; };
+		FDE231222262AD30006DAD93 /* NudgeWrapUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeWrapUpVC.swift; sourceTree = "<group>"; };
+		FDE231242262AF5F006DAD93 /* NudgeCompleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeCompleteVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,9 @@
 				FDE231152262686A006DAD93 /* PathwayVC.swift */,
 				FDE2311C22629DF0006DAD93 /* FrequencyVC.swift */,
 				FDE2311E2262A68F006DAD93 /* ProfileCompleteVC.swift */,
+				FDE231202262A8BA006DAD93 /* NudgeScenarioVC.swift */,
+				FDE231222262AD30006DAD93 /* NudgeWrapUpVC.swift */,
+				FDE231242262AF5F006DAD93 /* NudgeCompleteVC.swift */,
 			);
 			name = Controller;
 			path = ..;
@@ -270,13 +279,16 @@
 				FDE2311B22627852006DAD93 /* PathwayCell.swift in Sources */,
 				FDE2311F2262A68F006DAD93 /* ProfileCompleteVC.swift in Sources */,
 				FDE230FA226237C7006DAD93 /* SecondViewController.swift in Sources */,
+				FDE231252262AF5F006DAD93 /* NudgeCompleteVC.swift in Sources */,
 				FDE231162262686A006DAD93 /* PathwayVC.swift in Sources */,
 				FDE230F6226237C7006DAD93 /* AppDelegate.swift in Sources */,
 				FDE2311422625A47006DAD93 /* LoginVC.swift in Sources */,
 				FDE231192262736D006DAD93 /* CheckBoxButton.swift in Sources */,
 				FDE2311022623EFA006DAD93 /* AuthService.swift in Sources */,
 				FDE23112226241A6006DAD93 /* DataService.swift in Sources */,
+				FDE231212262A8BA006DAD93 /* NudgeScenarioVC.swift in Sources */,
 				FDE2311D22629DF0006DAD93 /* FrequencyVC.swift in Sources */,
+				FDE231232262AD30006DAD93 /* NudgeWrapUpVC.swift in Sources */,
 				FDE230F8226237C7006DAD93 /* FirstViewController.swift in Sources */,
 				FDE2310D22623D1B006DAD93 /* AuthVC.swift in Sources */,
 			);

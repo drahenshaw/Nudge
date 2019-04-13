@@ -10,6 +10,8 @@ import UIKit
 
 class ProfileCompleteVC: UIViewController {
 
+    private var userEXP: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,9 +19,6 @@ class ProfileCompleteVC: UIViewController {
         
         //READ UserEXP from DB
     }
-    
-    private var userEXP: Int
-    
     
 
     @IBAction func NextButtonPressed(_ sender: Any) {
