@@ -12,7 +12,14 @@ class PathwayVC: UIViewController {
     
     @IBOutlet var pathwayTableView: UITableView!
     
+    // Array of Pathways from DB
     var pathways = [String]()
+    
+    // Selected Pathways
+    var selectedPathways = [Bool]()
+    
+    // Final Pathway
+    var finalPathway = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,12 +28,30 @@ class PathwayVC: UIViewController {
         pathwayTableView.dataSource = self
     }
     
-
+    @IBAction func NextButtonPressed(_ sender: Any) {
+        let cells = self.pathwayTableView.visibleCells as! Array<PathwayCell>
+        
+        for cell in cells {
+            if cell.accessoryType == .checkmark {
+                finalPathway.append(cell.pathwayLabel.text!)
+            }
+        }
+        
+        performSegue(withIdentifier: "Notification", sender: self)
+    }
+    
 }
 
 extension PathwayVC: UITableViewDelegate, UITableViewDataSource{
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
         return 1
+    }
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return pathways.count
     }
     
     
@@ -35,17 +60,27 @@ extension PathwayVC: UITableViewDelegate, UITableViewDataSource{
         let pathType = "Default Type"
     
         cell.ConfigureCell(pathway: pathType)
-        
-        if (!cell.checkSelected())
-        {
-            print("Test passed")
-        }
-        
-        
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
+        let cell = tableView.cellForRow(at: indexPath) as! PathwayCell
+        
+        cell.accessoryType = .checkmark
+    }
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath)?.accessoryType = .none
+        selectedPathways[indexPath.row] = !selectedPathways[indexPath.row]
+    }
+    
+    func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
+        if let selectedRow = tableView.indexPathForSelectedRow,
+            selectedRow == indexPath {
+            tableView.deselectRow(at: indexPath, animated: false)
+            tableView.cellForRow(at: indexPath)?.accessoryType = .none
+            return nil
+        }
+        return indexPath
     }
 }

@@ -22,6 +22,7 @@
 		FDE231162262686A006DAD93 /* PathwayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231152262686A006DAD93 /* PathwayVC.swift */; };
 		FDE231192262736D006DAD93 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231182262736D006DAD93 /* CheckBoxButton.swift */; };
 		FDE2311B22627852006DAD93 /* PathwayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2311A22627852006DAD93 /* PathwayCell.swift */; };
+		FDE2311D22629DF0006DAD93 /* FrequencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2311C22629DF0006DAD93 /* FrequencyVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		FDE231152262686A006DAD93 /* PathwayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathwayVC.swift; sourceTree = "<group>"; };
 		FDE231182262736D006DAD93 /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
 		FDE2311A22627852006DAD93 /* PathwayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathwayCell.swift; sourceTree = "<group>"; };
+		FDE2311C22629DF0006DAD93 /* FrequencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				FDE2310C22623D1B006DAD93 /* AuthVC.swift */,
 				FDE2311322625A47006DAD93 /* LoginVC.swift */,
 				FDE231152262686A006DAD93 /* PathwayVC.swift */,
+				FDE2311C22629DF0006DAD93 /* FrequencyVC.swift */,
 			);
 			name = Controller;
 			path = ..;
@@ -269,6 +272,7 @@
 				FDE231192262736D006DAD93 /* CheckBoxButton.swift in Sources */,
 				FDE2311022623EFA006DAD93 /* AuthService.swift in Sources */,
 				FDE23112226241A6006DAD93 /* DataService.swift in Sources */,
+				FDE2311D22629DF0006DAD93 /* FrequencyVC.swift in Sources */,
 				FDE230F8226237C7006DAD93 /* FirstViewController.swift in Sources */,
 				FDE2310D22623D1B006DAD93 /* AuthVC.swift in Sources */,
 			);
