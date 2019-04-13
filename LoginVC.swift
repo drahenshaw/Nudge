@@ -15,8 +15,9 @@ class LoginVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        emailField.delegate = self
+        passwordField.delegate = self
     }
     
 
@@ -46,5 +47,6 @@ class LoginVC: UIViewController {
     }
     
     //TODO: Close Button
-    
 }
+
+extension LoginVC: UITextFieldDelegate {}
