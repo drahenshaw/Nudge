@@ -8,5 +8,6 @@ target 'Hope' do
   # Pods for Hope
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 
 end
