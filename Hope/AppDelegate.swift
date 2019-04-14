@@ -40,18 +40,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //let delegate = UIApplication.sharedApplication().delegate as AppDelegate
         //let client = delegate.client!
         //let item = ["text":"Awesome item"]
-        //let answerTable = client.table(withName: "nudgeAnswers")
-        //answerTable.read(completion: {(result, error ) in
-           // if let err = error {
-             //   print("Error ", err)
-          //  } else if let answers = result?.items {
-           //     for answer in answers {
-          //          print("Answer: ", answer["id"] as Any)
-         //       }
-       //     }
-    //    })
-        
-        
+        let answerTable = client.table(withName: "test11")
+        answerTable.read(completion: {(result, error ) in
+            if let err = error {
+                print("Error ", err)
+            } else if let answers = result?.items {
+                for answer in answers {
+                    print("Answer: ", answer["id"] as Any)
+                }
+            }
+        })
         
         
         //itemTable.insert(item) {
