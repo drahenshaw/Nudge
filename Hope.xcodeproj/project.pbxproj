@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B776BCB63D1CA3ACA24BCA71 /* Pods_Hope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8777B189C2C96192B9943561 /* Pods_Hope.framework */; };
 		FDE230F6226237C7006DAD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE230F5226237C7006DAD93 /* AppDelegate.swift */; };
-		FDE230F8226237C7006DAD93 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE230F7226237C7006DAD93 /* FirstViewController.swift */; };
+		FDE230F8226237C7006DAD93 /* UserDashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE230F7226237C7006DAD93 /* UserDashboardVC.swift */; };
 		FDE230FA226237C7006DAD93 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE230F9226237C7006DAD93 /* SecondViewController.swift */; };
 		FDE230FD226237C7006DAD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE230FB226237C7006DAD93 /* Main.storyboard */; };
 		FDE230FF226237C8006DAD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE230FE226237C8006DAD93 /* Assets.xcassets */; };
@@ -27,6 +27,8 @@
 		FDE231212262A8BA006DAD93 /* NudgeScenarioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231202262A8BA006DAD93 /* NudgeScenarioVC.swift */; };
 		FDE231232262AD30006DAD93 /* NudgeWrapUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231222262AD30006DAD93 /* NudgeWrapUpVC.swift */; };
 		FDE231252262AF5F006DAD93 /* NudgeCompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231242262AF5F006DAD93 /* NudgeCompleteVC.swift */; };
+		FDE231282262B8A3006DAD93 /* Nudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231272262B8A3006DAD93 /* Nudge.swift */; };
+		FDE2312A2262B8B3006DAD93 /* NudgeAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231292262B8B3006DAD93 /* NudgeAnswer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +37,7 @@
 		A3AB4593FB3F2112FBAF8571 /* Pods-Hope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hope.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hope/Pods-Hope.release.xcconfig"; sourceTree = "<group>"; };
 		FDE230F2226237C7006DAD93 /* Hope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE230F5226237C7006DAD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDE230F7226237C7006DAD93 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FDE230F7226237C7006DAD93 /* UserDashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDashboardVC.swift; sourceTree = "<group>"; };
 		FDE230F9226237C7006DAD93 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FDE230FC226237C7006DAD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDE230FE226237C8006DAD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		FDE231202262A8BA006DAD93 /* NudgeScenarioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeScenarioVC.swift; sourceTree = "<group>"; };
 		FDE231222262AD30006DAD93 /* NudgeWrapUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeWrapUpVC.swift; sourceTree = "<group>"; };
 		FDE231242262AF5F006DAD93 /* NudgeCompleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeCompleteVC.swift; sourceTree = "<group>"; };
+		FDE231272262B8A3006DAD93 /* Nudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nudge.swift; sourceTree = "<group>"; };
+		FDE231292262B8B3006DAD93 /* NudgeAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeAnswer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +110,11 @@
 		FDE230F4226237C7006DAD93 /* Hope */ = {
 			isa = PBXGroup;
 			children = (
+				FDE231262262B871006DAD93 /* Model */,
 				FDE2311722627323006DAD93 /* View */,
 				FDE2310E22623ECE006DAD93 /* Services */,
 				FDE2310B22623CFD006DAD93 /* Controller */,
 				FDE230F5226237C7006DAD93 /* AppDelegate.swift */,
-				FDE230F7226237C7006DAD93 /* FirstViewController.swift */,
-				FDE230F9226237C7006DAD93 /* SecondViewController.swift */,
 				FDE230FB226237C7006DAD93 /* Main.storyboard */,
 				FDE230FE226237C8006DAD93 /* Assets.xcassets */,
 				FDE23100226237C8006DAD93 /* LaunchScreen.storyboard */,
@@ -124,6 +127,8 @@
 		FDE2310B22623CFD006DAD93 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FDE230F7226237C7006DAD93 /* UserDashboardVC.swift */,
+				FDE230F9226237C7006DAD93 /* SecondViewController.swift */,
 				FDE2310C22623D1B006DAD93 /* AuthVC.swift */,
 				FDE2311322625A47006DAD93 /* LoginVC.swift */,
 				FDE231152262686A006DAD93 /* PathwayVC.swift */,
@@ -154,6 +159,16 @@
 				FDE2311A22627852006DAD93 /* PathwayCell.swift */,
 			);
 			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FDE231262262B871006DAD93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDE231272262B8A3006DAD93 /* Nudge.swift */,
+				FDE231292262B8B3006DAD93 /* NudgeAnswer.swift */,
+			);
+			name = Model;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -277,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE2311B22627852006DAD93 /* PathwayCell.swift in Sources */,
+				FDE2312A2262B8B3006DAD93 /* NudgeAnswer.swift in Sources */,
 				FDE2311F2262A68F006DAD93 /* ProfileCompleteVC.swift in Sources */,
 				FDE230FA226237C7006DAD93 /* SecondViewController.swift in Sources */,
 				FDE231252262AF5F006DAD93 /* NudgeCompleteVC.swift in Sources */,
@@ -285,11 +301,12 @@
 				FDE2311422625A47006DAD93 /* LoginVC.swift in Sources */,
 				FDE231192262736D006DAD93 /* CheckBoxButton.swift in Sources */,
 				FDE2311022623EFA006DAD93 /* AuthService.swift in Sources */,
+				FDE231282262B8A3006DAD93 /* Nudge.swift in Sources */,
 				FDE23112226241A6006DAD93 /* DataService.swift in Sources */,
 				FDE231212262A8BA006DAD93 /* NudgeScenarioVC.swift in Sources */,
 				FDE2311D22629DF0006DAD93 /* FrequencyVC.swift in Sources */,
 				FDE231232262AD30006DAD93 /* NudgeWrapUpVC.swift in Sources */,
-				FDE230F8226237C7006DAD93 /* FirstViewController.swift in Sources */,
+				FDE230F8226237C7006DAD93 /* UserDashboardVC.swift in Sources */,
 				FDE2310D22623D1B006DAD93 /* AuthVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
