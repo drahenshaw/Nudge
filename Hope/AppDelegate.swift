@@ -8,12 +8,13 @@
 
 import UIKit
 import Firebase
+import WebKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    public let client = MSClient(applicationURLString: "https://hopenudge.azurewebsites.net")
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -30,8 +31,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.rootViewController?.present(authVC, animated: true, completion: nil)
         }
         
+        // Azure Setup
+        
+        
+        
+        
+        
+        //let delegate = UIApplication.sharedApplication().delegate as AppDelegate
+        //let client = delegate.client!
+        //let item = ["text":"Awesome item"]
+        //let answerTable = client.table(withName: "nudgeAnswers")
+        //answerTable.read(completion: {(result, error ) in
+           // if let err = error {
+             //   print("Error ", err)
+          //  } else if let answers = result?.items {
+           //     for answer in answers {
+          //          print("Answer: ", answer["id"] as Any)
+         //       }
+       //     }
+    //    })
+        
+        
+        
+        
+        //itemTable.insert(item) {
+            //(insertedItem, error) in
+            //if error {
+             //   println("Error" + error.description);
+            //} else {
+            //    println("Item inserted, id: " + insertedItem["id"])
+            //}
+       // }
+        
+        
         return true
     }
+
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

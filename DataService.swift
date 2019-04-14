@@ -41,5 +41,8 @@ class DataService
     }
     
     // Data Service Methods
+    //let delegate = UIApplication.shared.delegate as! AppDelegate
+    //lazy var client = delegate.client
     
+    //let table = client.tableWithName("tablename")
 }
