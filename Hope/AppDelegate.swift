@@ -51,14 +51,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let answerTable = client.table(withName: "users")
         
         //answerTable.read(completion: {(result, error ) in
-          //  if let err = error {
-           //     print("Error ", err)
-         //   } else if let answers = result?.items {
+         //   if let err = error {
+          //      print("Error ", err)
+          //  } else if let answers = result?.items {
           //      for answer in answers {
-          //          print("Answer: ", answer["ID"] as Any)
-          //      }
-       //     }
+          //          print("Answer: ", answer["ID"])
+         //       }
+        //    }
      //   })
+        
+        answerTable.read { (result, error) in
+            if let err = error {
+                print("ERROR ", err)
+            } else if let items = result?.items {
+                for item in items {
+                    print("Todo Item: ", item["ID"])
+                }
+            }
+        }
         
         
         

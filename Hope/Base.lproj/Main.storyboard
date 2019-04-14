@@ -233,7 +233,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hopebg" translatesAutoresizingMaskIntoConstraints="NO" id="H93-3u-Bas">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome User" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgF-81-lNo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome, David" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgF-81-lNo">
                                 <rect key="frame" x="64" y="95" width="247" height="27.5"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
                                 <nil key="textColor"/>
@@ -261,7 +261,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PathType" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afq-Dv-inV">
-                                                    <rect key="frame" x="35" y="11" width="71" height="21"/>
+                                                    <rect key="frame" x="15" y="11" width="71" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -269,7 +269,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Afq-Dv-inV" secondAttribute="bottom" constant="1" id="ADx-Iq-0Rc"/>
-                                                <constraint firstItem="Afq-Dv-inV" firstAttribute="leading" secondItem="8aB-zk-NgW" secondAttribute="leadingMargin" constant="20" id="oky-T9-xc5"/>
+                                                <constraint firstItem="Afq-Dv-inV" firstAttribute="leading" secondItem="8aB-zk-NgW" secondAttribute="leadingMargin" id="dzd-u2-bwh"/>
                                                 <constraint firstItem="Afq-Dv-inV" firstAttribute="top" secondItem="8aB-zk-NgW" secondAttribute="topMargin" id="zkf-yi-DpU"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -332,8 +332,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hopebg" translatesAutoresizingMaskIntoConstraints="NO" id="E4N-oZ-Ejf">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZ3-rt-I1q">
-                                <rect key="frame" x="171" y="95" width="32" height="22.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Think Therapy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZ3-rt-I1q">
+                                <rect key="frame" x="103" y="95" width="164" height="22.5"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -342,7 +342,7 @@
                                 <rect key="frame" x="67" y="269" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">You have been friends with this particular person for years and you are best friends.  Your best friend doesn't return your call. What are your thoughts?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -357,7 +357,7 @@
                                             <constraint firstAttribute="height" constant="30" id="OcC-HY-CQ7"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="You Can't Trust Anyone">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -371,8 +371,8 @@
                                             <constraint firstAttribute="width" constant="222" id="DzW-p6-9sV"/>
                                             <constraint firstAttribute="height" constant="30" id="wZJ-RH-qgX"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                        <state key="normal" title="Button">
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                        <state key="normal" title="They Don't Want to be Friends">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -387,7 +387,7 @@
                                             <constraint firstAttribute="width" constant="222" id="ebe-U0-rny"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Perhaps They are Busy">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -396,8 +396,8 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oez-al-TBr">
-                                <rect key="frame" x="159" y="174" width="57" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rethink" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oez-al-TBr">
+                                <rect key="frame" x="159" y="174" width="56" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -406,8 +406,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="wZ3-rt-I1q" firstAttribute="leading" secondItem="js8-j5-je8" secondAttribute="leading" constant="171" id="ELU-Mj-393"/>
-                            <constraint firstItem="js8-j5-je8" firstAttribute="trailing" secondItem="wZ3-rt-I1q" secondAttribute="trailing" constant="172" id="PzX-CN-XKP"/>
+                            <constraint firstItem="wZ3-rt-I1q" firstAttribute="leading" secondItem="js8-j5-je8" secondAttribute="leading" constant="103" id="ELU-Mj-393"/>
+                            <constraint firstItem="js8-j5-je8" firstAttribute="trailing" secondItem="wZ3-rt-I1q" secondAttribute="trailing" constant="108" id="PzX-CN-XKP"/>
                             <constraint firstItem="yhT-1J-VQ6" firstAttribute="leading" secondItem="js8-j5-je8" secondAttribute="leading" constant="78" id="Rlf-at-onX"/>
                             <constraint firstItem="js8-j5-je8" firstAttribute="trailing" secondItem="E4N-oZ-Ejf" secondAttribute="trailing" id="TBp-AW-dGR"/>
                             <constraint firstItem="wZ3-rt-I1q" firstAttribute="top" secondItem="js8-j5-je8" secondAttribute="top" constant="75" id="TyZ-kU-zeh"/>
@@ -430,7 +430,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3aO-5M-bkp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1470" y="1450"/>
+            <point key="canvasLocation" x="-1471.2" y="1449.6251874062971"/>
         </scene>
         <!--Nudge Wrap UpVC-->
         <scene sceneID="zCY-Dr-aks">
@@ -447,7 +447,7 @@
                                 <rect key="frame" x="67" y="193" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">It's unhealthy to jump to conclusions without enough information/evidence.  Giving people the benefit of the doubt is fair especially when they are close friends.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -455,7 +455,8 @@
                                 <rect key="frame" x="67" y="369" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">TakeAway
+Don't jump to conclusions without proper reasoning.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -467,21 +468,21 @@
                                     <constraint firstAttribute="height" constant="30" id="fXS-R7-cJA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="NextButtonPressed:" destination="yRY-wL-v7H" eventType="touchUpInside" id="75P-vH-rte"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wrap Up Subtitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBy-fp-6DG">
-                                <rect key="frame" x="120" y="95" width="134" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Cognitive Dispute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBy-fp-6DG">
+                                <rect key="frame" x="67" y="95" width="240" height="23"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Source Caption" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aom-IK-gJr">
-                                <rect key="frame" x="138" y="505" width="99" height="19"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DBT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aom-IK-gJr">
+                                <rect key="frame" x="174" y="505" width="26" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                 <nil key="textColor"/>
@@ -492,12 +493,12 @@
                         <constraints>
                             <constraint firstItem="eHe-Dy-HKd" firstAttribute="leading" secondItem="bGZ-BI-f38" secondAttribute="leading" id="1VN-kp-sFo"/>
                             <constraint firstItem="bGZ-BI-f38" firstAttribute="trailing" secondItem="eHe-Dy-HKd" secondAttribute="trailing" id="21L-IH-NFV"/>
-                            <constraint firstItem="NBy-fp-6DG" firstAttribute="leading" secondItem="bGZ-BI-f38" secondAttribute="leading" constant="120" id="Ob6-rP-A3D"/>
+                            <constraint firstItem="NBy-fp-6DG" firstAttribute="leading" secondItem="bGZ-BI-f38" secondAttribute="leading" constant="67" id="Ob6-rP-A3D"/>
                             <constraint firstItem="NBy-fp-6DG" firstAttribute="top" secondItem="bGZ-BI-f38" secondAttribute="top" constant="75" id="W3h-lh-eIy"/>
                             <constraint firstItem="bGZ-BI-f38" firstAttribute="bottom" secondItem="eHe-Dy-HKd" secondAttribute="bottom" id="XXl-5C-b70"/>
                             <constraint firstItem="bGZ-BI-f38" firstAttribute="bottom" secondItem="Lsj-f4-W6Z" secondAttribute="bottom" constant="31" id="ejg-3W-U1q"/>
                             <constraint firstItem="Lsj-f4-W6Z" firstAttribute="leading" secondItem="bGZ-BI-f38" secondAttribute="leading" constant="76" id="gPu-km-Rnd"/>
-                            <constraint firstItem="bGZ-BI-f38" firstAttribute="trailing" secondItem="NBy-fp-6DG" secondAttribute="trailing" constant="121" id="oWG-Uc-6EQ"/>
+                            <constraint firstItem="bGZ-BI-f38" firstAttribute="trailing" secondItem="NBy-fp-6DG" secondAttribute="trailing" constant="68" id="oWG-Uc-6EQ"/>
                             <constraint firstItem="eHe-Dy-HKd" firstAttribute="top" secondItem="bGZ-BI-f38" secondAttribute="top" id="qCs-9L-lKn"/>
                             <constraint firstItem="bGZ-BI-f38" firstAttribute="trailing" secondItem="Lsj-f4-W6Z" secondAttribute="trailing" constant="77" id="uMu-6j-ViB"/>
                         </constraints>
@@ -544,7 +545,7 @@
                                             <constraint firstAttribute="width" constant="111" id="PAj-13-JhH"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Done">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -559,7 +560,7 @@
                                             <constraint firstAttribute="width" constant="111" id="sGY-nI-CsS"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Nudge">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -814,6 +815,6 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kRz-X3-gIb"/>
+        <segue reference="Sm9-b7-750"/>
     </inferredMetricsTieBreakers>
 </document>

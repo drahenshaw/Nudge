@@ -54,13 +54,13 @@ extension PathwayVC: UITableViewDelegate, UITableViewDataSource{
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return pathways.count
+        return 1//pathways.count
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "PathwayCell") as? PathwayCell else {return UITableViewCell()}
-        let pathType = "Default Type"
+        let pathType = "Anxiety"
     
         cell.ConfigureCell(pathway: pathType)
         return cell
