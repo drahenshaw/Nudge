@@ -10,10 +10,13 @@ import UIKit
 
 class FrequencyVC: UIViewController {
 
+    @IBOutlet weak var nextButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        nextButton.layer.cornerRadius = 15
     }
     
     

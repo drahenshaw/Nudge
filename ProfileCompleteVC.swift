@@ -10,12 +10,16 @@ import UIKit
 
 class ProfileCompleteVC: UIViewController {
 
+    @IBOutlet weak var expLabel: UILabel!
+    @IBOutlet weak var nextButton: UIButton!
+    
     private var userEXP: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //nextButton.layer.cornerRadius = 15
         
         //READ UserEXP from DB
     }

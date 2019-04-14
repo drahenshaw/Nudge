@@ -29,6 +29,7 @@
 		FDE231252262AF5F006DAD93 /* NudgeCompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231242262AF5F006DAD93 /* NudgeCompleteVC.swift */; };
 		FDE231282262B8A3006DAD93 /* Nudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231272262B8A3006DAD93 /* Nudge.swift */; };
 		FDE2312A2262B8B3006DAD93 /* NudgeAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE231292262B8B3006DAD93 /* NudgeAnswer.swift */; };
+		FDE2312C2262E345006DAD93 /* Natsu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE2312B2262E344006DAD93 /* Natsu.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		FDE231242262AF5F006DAD93 /* NudgeCompleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeCompleteVC.swift; sourceTree = "<group>"; };
 		FDE231272262B8A3006DAD93 /* Nudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nudge.swift; sourceTree = "<group>"; };
 		FDE231292262B8B3006DAD93 /* NudgeAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeAnswer.swift; sourceTree = "<group>"; };
+		FDE2312B2262E344006DAD93 /* Natsu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Natsu.ttf; path = Assets.xcassets/Natsu.dataset/Natsu.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				FDE23100226237C8006DAD93 /* LaunchScreen.storyboard */,
 				FDE23103226237C8006DAD93 /* Info.plist */,
 				FDE23109226238C2006DAD93 /* GoogleService-Info.plist */,
+				FDE2312B2262E344006DAD93 /* Natsu.ttf */,
 			);
 			path = Hope;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE2312C2262E345006DAD93 /* Natsu.ttf in Resources */,
 				FDE23102226237C8006DAD93 /* LaunchScreen.storyboard in Resources */,
 				FDE2310A226238C2006DAD93 /* GoogleService-Info.plist in Resources */,
 				FDE230FF226237C8006DAD93 /* Assets.xcassets in Resources */,
