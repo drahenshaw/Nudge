@@ -12,10 +12,14 @@ import FirebaseAuth
 
 class AuthVC: UIViewController {
 
+    @IBOutlet weak var AppLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        AppLabel?.font = UIFont(name: "Natsu", size: 17)
     }
     
     

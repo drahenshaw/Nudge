@@ -11,6 +11,7 @@ import UIKit
 class PathwayVC: UIViewController {
     
     @IBOutlet var pathwayTableView: UITableView!
+    @IBOutlet weak var nextButton: UIButton!
     
     // Array of Pathways from DB
     var pathways = [String]()
@@ -26,6 +27,8 @@ class PathwayVC: UIViewController {
 
         pathwayTableView.delegate = self
         pathwayTableView.dataSource = self
+        
+        nextButton.layer.cornerRadius = 15
     }
     
     @IBAction func NextButtonPressed(_ sender: Any) {
