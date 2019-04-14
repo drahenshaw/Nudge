@@ -10,10 +10,16 @@ import UIKit
 
 class NudgeCompleteVC: UIViewController {
 
+    @IBOutlet weak var leftButtonDone: UIButton!
+    @IBOutlet weak var rightButtonNext: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        leftButtonDone.layer.cornerRadius = 15
+        rightButtonNext.layer.cornerRadius = 15
     }
     
     @IBAction func NextNudgePressed(_ sender: Any) {

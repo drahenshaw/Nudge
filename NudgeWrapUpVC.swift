@@ -14,13 +14,13 @@ class NudgeWrapUpVC: UIViewController {
     @IBOutlet weak var nudgeWrapUpStory: UITextView!
     @IBOutlet weak var nudgeTakeAway: UITextView!
     @IBOutlet weak var nudgeSource: UILabel!
-    
-    
+    @IBOutlet weak var nextButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        nextButton.layer.cornerRadius = 15
     }
     
     @IBAction func NextButtonPressed(_ sender: Any) {

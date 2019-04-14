@@ -19,7 +19,7 @@ class ProfileCompleteVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        //nextButton.layer.cornerRadius = 15
+        nextButton.layer.cornerRadius = 15
         
         //READ UserEXP from DB
     }
