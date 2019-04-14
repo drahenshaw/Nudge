@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     public let client = MSClient(applicationURLString: "https://hopenudge.azurewebsites.net")
+    //let test = MSSyncContext(delegate: <#T##MSSyncContextDelegate?#>, dataSource: <#T##MSSyncContextDataSource?#>, callback: <#T##OperationQueue?#>)
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -36,20 +37,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         
+        //client.syncContext = MSSyncContext(delegate: nil, dataSource: nil, callback: nil)
+        
+        
+        
+        
+        
         
         //let delegate = UIApplication.sharedApplication().delegate as AppDelegate
         //let client = delegate.client!
         //let item = ["text":"Awesome item"]
-        let answerTable = client.table(withName: "test11")
-        answerTable.read(completion: {(result, error ) in
-            if let err = error {
-                print("Error ", err)
-            } else if let answers = result?.items {
-                for answer in answers {
-                    print("Answer: ", answer["id"] as Any)
-                }
-            }
-        })
+        //let answerTable = client.table(withName: "test11")
+        let answerTable = client.table(withName: "users")
+        
+        //answerTable.read(completion: {(result, error ) in
+          //  if let err = error {
+           //     print("Error ", err)
+         //   } else if let answers = result?.items {
+          //      for answer in answers {
+          //          print("Answer: ", answer["ID"] as Any)
+          //      }
+       //     }
+     //   })
+        
+        
         
         
         //itemTable.insert(item) {

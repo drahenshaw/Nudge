@@ -23,6 +23,9 @@ class NudgeScenarioVC: UIViewController {
         super.viewDidLoad()
 
         // READ DB for Nudge Info and Load Labels + Buttons
+        nudgeAnswerFirst.layer.cornerRadius = 15
+        nudgeAnswerSecond.layer.cornerRadius = 15
+        nudgeAnswerThird.layer.cornerRadius = 15
     }
     
     func nudgeAnswerSelected()
